@@ -18,6 +18,14 @@
 		B6E17EE316DDEAE900C4878A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E17EE216DDEAE900C4878A /* Default@2x.png */; };
 		B6E17EE516DDEAE900C4878A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E17EE416DDEAE900C4878A /* Default-568h@2x.png */; };
 		B6E17EE816DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6E17EE616DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodeld */; };
+		B6E17EF016DDF76B00C4878A /* EntityRevData.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E17EEF16DDF76B00C4878A /* EntityRevData.m */; };
+		B6E17F2916DE722C00C4878A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E17F2716DE722C00C4878A /* MainViewController.m */; };
+		B6E17F2A16DE722C00C4878A /* MainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E17F2816DE722C00C4878A /* MainViewController_iPhone.xib */; };
+		B6E17F2C16DE726C00C4878A /* MainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E17F2B16DE726C00C4878A /* MainViewController_iPad.xib */; };
+		B6E17F3016DEF21500C4878A /* tblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E17F2E16DEF21500C4878A /* tblViewController.m */; };
+		B6E17F3116DEF21500C4878A /* tblViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E17F2F16DEF21500C4878A /* tblViewController.xib */; };
+		B6E17F3916DF751900C4878A /* PopOverChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E17F3716DF751800C4878A /* PopOverChoiceViewController.m */; };
+		B6E17F3A16DF751900C4878A /* PopOverChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E17F3816DF751900C4878A /* PopOverChoiceViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,18 @@
 		B6E17EE216DDEAE900C4878A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B6E17EE416DDEAE900C4878A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B6E17EE716DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iosTest_Jaff__Yakimbi.xcdatamodel; sourceTree = "<group>"; };
+		B6E17EEE16DDF76B00C4878A /* EntityRevData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityRevData.h; sourceTree = "<group>"; };
+		B6E17EEF16DDF76B00C4878A /* EntityRevData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityRevData.m; sourceTree = "<group>"; };
+		B6E17F2616DE722C00C4878A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B6E17F2716DE722C00C4878A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B6E17F2816DE722C00C4878A /* MainViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_iPhone.xib; sourceTree = "<group>"; };
+		B6E17F2B16DE726C00C4878A /* MainViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_iPad.xib; sourceTree = "<group>"; };
+		B6E17F2D16DEF21500C4878A /* tblViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tblViewController.h; sourceTree = "<group>"; };
+		B6E17F2E16DEF21500C4878A /* tblViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tblViewController.m; sourceTree = "<group>"; };
+		B6E17F2F16DEF21500C4878A /* tblViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tblViewController.xib; sourceTree = "<group>"; };
+		B6E17F3616DF751800C4878A /* PopOverChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOverChoiceViewController.h; sourceTree = "<group>"; };
+		B6E17F3716DF751800C4878A /* PopOverChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOverChoiceViewController.m; sourceTree = "<group>"; };
+		B6E17F3816DF751900C4878A /* PopOverChoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverChoiceViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +106,19 @@
 			children = (
 				B6E17EDD16DDEAE900C4878A /* AppDelegate.h */,
 				B6E17EDE16DDEAE900C4878A /* AppDelegate.m */,
+				B6E17F2D16DEF21500C4878A /* tblViewController.h */,
+				B6E17F2E16DEF21500C4878A /* tblViewController.m */,
+				B6E17F2F16DEF21500C4878A /* tblViewController.xib */,
+				B6E17F3616DF751800C4878A /* PopOverChoiceViewController.h */,
+				B6E17F3716DF751800C4878A /* PopOverChoiceViewController.m */,
+				B6E17F3816DF751900C4878A /* PopOverChoiceViewController.xib */,
+				B6E17F2616DE722C00C4878A /* MainViewController.h */,
+				B6E17F2716DE722C00C4878A /* MainViewController.m */,
+				B6E17F2816DE722C00C4878A /* MainViewController_iPhone.xib */,
+				B6E17F2B16DE726C00C4878A /* MainViewController_iPad.xib */,
 				B6E17EE616DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodeld */,
+				B6E17EEE16DDF76B00C4878A /* EntityRevData.h */,
+				B6E17EEF16DDF76B00C4878A /* EntityRevData.m */,
 				B6E17ED516DDEAE900C4878A /* Supporting Files */,
 			);
 			path = "iosTest_Jaff_ Yakimbi";
@@ -161,6 +193,10 @@
 				B6E17EE116DDEAE900C4878A /* Default.png in Resources */,
 				B6E17EE316DDEAE900C4878A /* Default@2x.png in Resources */,
 				B6E17EE516DDEAE900C4878A /* Default-568h@2x.png in Resources */,
+				B6E17F2A16DE722C00C4878A /* MainViewController_iPhone.xib in Resources */,
+				B6E17F2C16DE726C00C4878A /* MainViewController_iPad.xib in Resources */,
+				B6E17F3116DEF21500C4878A /* tblViewController.xib in Resources */,
+				B6E17F3A16DF751900C4878A /* PopOverChoiceViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +210,10 @@
 				B6E17EDB16DDEAE900C4878A /* main.m in Sources */,
 				B6E17EDF16DDEAE900C4878A /* AppDelegate.m in Sources */,
 				B6E17EE816DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodeld in Sources */,
+				B6E17EF016DDF76B00C4878A /* EntityRevData.m in Sources */,
+				B6E17F2916DE722C00C4878A /* MainViewController.m in Sources */,
+				B6E17F3016DEF21500C4878A /* tblViewController.m in Sources */,
+				B6E17F3916DF751900C4878A /* PopOverChoiceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +287,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iosTest_Jaff_ Yakimbi/iosTest_Jaff_ Yakimbi-Prefix.pch";
 				INFOPLIST_FILE = "iosTest_Jaff_ Yakimbi/iosTest_Jaff_ Yakimbi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -258,6 +299,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iosTest_Jaff_ Yakimbi/iosTest_Jaff_ Yakimbi-Prefix.pch";
 				INFOPLIST_FILE = "iosTest_Jaff_ Yakimbi/iosTest_Jaff_ Yakimbi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
